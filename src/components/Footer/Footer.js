@@ -152,10 +152,8 @@ export default function Footer() {
       <div className="region-div">
         <h3 style={{ color: "orangered", fontSize: "25px" }}>Our Regions</h3>
         <div className="region-con">
-          {region.map((reg) => (
-            <p className="region-name"
-             
-            >
+          {region.map((reg, id) => (
+            <p key={id} className="region-name">
               {reg.name}
             </p>
           ))}
