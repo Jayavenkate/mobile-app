@@ -128,21 +128,21 @@ export default function Footer() {
       </div>
       <div className="contact">
         {contact.map((con, id) => (
-          <div key={id} style={{ maxHeight: "max-content" }}>
+          <div key={id} style={{ maxHeight: "max-content", display: "flex" }}>
             <div>
-              {con.icon1}
+              <IconButton sx={{ color: "orangered" }}>{con.icon1}</IconButton>
               <h3 className="header">{con.title1}</h3>
               <p className="pelement">{con.tamilnadu}</p>
               <p className="pelement">{con.kerala}</p>
             </div>
             <div>
-              {con.icon2}
+              <IconButton sx={{ color: "orangered" }}>{con.icon2}</IconButton>
               <h3 className="header">{con.title2}</h3>
               <p className="street-name">{con.street}</p>
               <p className="street-name">{con.address}</p>
             </div>
             <div>
-              {con.icon3}
+              <IconButton sx={{ color: "orangered" }}>{con.icon3}</IconButton>
               <h3 className="header">{con.title3}</h3>
               <p className="street-name">{con.email}</p>
             </div>
