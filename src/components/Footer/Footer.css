@@ -1,0 +1,73 @@
+.pelement {
+  font-size: 20px;
+  /* margin: 0; */
+  font-weight: bold;
+}
+.header {
+  color: orangered;
+  font-size: 22px;
+}
+.street-name {
+  font-size: 18px;
+  /* margin: 0; */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid orangered;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.description {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.p-content {
+  border-right: 1px solid;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.icons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+  border-bottom: 1px solid orangered;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 30px 0px;
+}
+.region-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid orangered;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.region-con {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto 30px auto;
+}
+
+.region-name {
+  border-right: 1px solid black;
+  padding: 0px 10px 0px 10px;
+  margin: 5px 0px 10px 0px;
+  font-size: 18px;
+}
