@@ -1,0 +1,15 @@
+.accordion-header {
+  text-align: center;
+  color: #ff6900;
+  font-size: 30px;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+

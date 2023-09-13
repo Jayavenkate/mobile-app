@@ -1,0 +1,268 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    width: 100vh;
+    overflow: hidden;
+
+}
+a{
+    text-decoration: none;
+}
+
+.nav {
+   border: 1px solid black;
+   border: none;
+   position: sticky;
+   top: 0;
+   height: 150px;
+   width: 1600px;
+   background-color: white;
+  
+   
+   
+}
+.nav .logo{
+    height: 100px;
+    position: relative;
+    top: 30px;
+    left: 35px;
+   
+}
+
+.nav .since{
+    position: relative;
+    left: 310px;
+    bottom: 70px;
+    font-family: Georgia, serif;
+    color: black;
+}
+.nav .box_a{
+    text-decoration: none;
+}
+
+.nav .logo_box{
+    background-color: #ff6600;
+    height: 40px;
+    width: 300px;
+    position: relative;
+    bottom: 70px;
+    left: 190px;
+    font-size: 22px;
+    text-align: center;
+    font-family: Georgia, serif;
+    color: white;
+    
+
+}
+
+.nav .logo_box .inline{
+    display: inline;
+    position: relative;
+    top: 5px;
+    border: 1px solid white;
+    right: 2px;
+    padding: 0px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.nav .logo_box .box_content{
+    position: relative;
+    top: 8px;
+    left: 2px;
+    
+}
+
+.nav .down_content{
+    position: relative;
+    left: 230px;
+    bottom: 70px;
+    font-size: 14px;
+    font-family: Georgia, serif;
+    color: black;
+    font-weight: bold;
+} */
+/* Desktop */
+/* @media (min-width:600px){
+    .nav .button_nav{
+        height: 40px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px;
+        background-color: #ff5c33;
+        color: white;
+        font-weight: bold;
+        position: relative;
+        left: 740px;
+        bottom: 120px;
+        border: none;
+        
+    } */
+    /* .whatsapp-btn {
+        position: relative;
+        bottom: 195px;
+        left: 1270px;
+    
+        z-index: 9999;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #25D366;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        animation: breathe 2s ease-in-out infinite;
+        
+      } */
+      
+      /*Estilos solo al icono whatsapp*/
+      /* .whatsapp-btn i {
+        color: #fff;
+        font-size: 24px;
+        animation: beat 2s ease-in-out infinite;
+        text-decoration: none;
+      } */
+      
+      /*Estilos con animation contorno respirando*/
+      /* @keyframes breathe {
+        0% {
+          box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+        }
+        70% {
+          box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+        }
+        100% {
+          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
+      } */
+      
+      /*Estilos de animacion del icono latiendo*/
+      /* @keyframes beat {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+        100% {
+          transform: scale(1);
+        }
+      } */
+      
+      
+    /* Call icon csss */
+    
+    /* .call-buton .cc-calto-action-ripple {
+        z-index: 99999;
+        position:relative;
+        left: 67rem;
+        bottom: 150px;
+        background: #ec8b00;
+        width: 46px;
+        height: 44px;
+        padding: 11px;
+        border-radius: 110%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        color: #fcfcfc;
+        -webkit-animation: cc-calto-action-ripple 0.6s linear infinite;
+        animation: cc-calto-action-ripple 0.4s linear infinite;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-items: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-decoration: none; }
+        .call-buton .cc-calto-action-ripple i {
+          -webkit-transition: 0.3s ease;
+          transition: 0.15s ease;
+          font-size: 2.2rem; } */
+    
+      
+      /* @-webkit-keyframes cc-calto-action-ripple {
+        0% {
+          -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 0 rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2);
+          box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 0 rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2); }
+        100% {
+          -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0);
+          box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0); } } */
+      
+      /* @keyframes cc-calto-action-ripple {
+        0% {
+          -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 0 rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2);
+          box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 0 rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2); }
+        100% {
+          -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0);
+          box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0); } } */
+    
+        
+    /* .call-buton .cc-calto-action-ripple .phone_num{
+        color: #ff5c33;
+        position: relative;
+        left: 10px;
+        font-size: 20px;
+        font-weight: 1000;
+    
+    }
+    .nav .sell-mobile{
+        position: relative;
+        left: 1325px;
+        bottom: 240px;
+        font-weight: 1000;
+        font-size: 27px;
+        color: #66ff66;
+    } */
+    /* desktop view mobile content */
+    /* / */
+  
+
+/* } */
+/* Mobile */
+ /* @media (max-width:600px){
+  .nav .button_nav{
+    display: none;
+  }
+  .mobile_view{
+    position: relative;
+    top: 520px;
+    left: 120px;
+  }
+  .mobile_view a{
+    background-color: orange;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    
+
+ }
+ .mobile_view  .mobile_span{
+  padding-left: 10px;
+  background-color: #fcfcfc;
+ }
+ .mobile_view .mobile_line{
+  position: relative;
+  left: 9px;
+ }
+ .whatsapp-btn{
+  display: none;
+ }
+  .call-buton .cc-calto-action-ripple .phone_num{
+    display: none;
+  }
+  .call-buton .cc-calto-action-ripple i {
+    display: none;
+  }
+  .nav .sell-mobile{
+    display: none;
+  }
+} */
